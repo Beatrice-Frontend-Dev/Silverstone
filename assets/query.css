@@ -1,0 +1,350 @@
+@media (max-width: 1000px) {
+  html {
+    font-size: 60%;
+  }
+  .nav,
+  .hero-content {
+    padding: 1.5rem 5rem;
+  }
+
+  .nav-links a {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .hero {
+    height: 60vh;
+  }
+
+  .hero-content {
+    width: 55%;
+  }
+
+  .hero-content p {
+    padding-right: 0rem;
+  }
+
+  .legal-content {
+    flex-direction: column;
+  }
+
+  .legal-heading,
+  .attorneys {
+    width: 100%;
+    padding: 5rem;
+  }
+
+  .legal-info {
+    width: 100%;
+    padding: 5rem 9rem;
+  }
+
+  .vision-section {
+    padding: 7rem;
+  }
+
+  .square-ul li {
+    font-size: 2.9rem;
+    font-weight: 600;
+  }
+
+  .vision-content p,
+  .hero-content p,
+  .div-para p,
+  .norms-list li,
+  .contact-form {
+    font-size: 2.4rem;
+  }
+
+  .fixed {
+    height: 50vh;
+  }
+
+  .attorneys {
+    width: 100%;
+  }
+
+  .male-attorneys {
+    column-gap: 2.5rem;
+  }
+
+  .contact {
+    background-size: cover;
+    height: 80vh;
+  }
+
+  .contact-cover {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-info {
+    padding: 6rem 5rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 6rem 5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.95);
+    top: 0;
+    height: 100%;
+    right: 0;
+    width: 80%;
+    border-radius: 0.7rem 0 0 0.7rem;
+    z-index: 2000;
+  }
+
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    z-index: 1000;
+  }
+
+  .nav-links.active a {
+    color: #fff;
+  }
+
+  .close-btn {
+    display: block;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 2.5rem;
+    right: 4rem;
+    cursor: pointer;
+    z-index: 1100;
+  }
+
+  .burger i:hover {
+    color: #00305b;
+  }
+
+  .close-btn:hover {
+    color: #fff;
+  }
+
+  .nav {
+    padding: 2rem 4rem 2rem 3rem;
+  }
+
+  .name {
+    font-weight: 600;
+    font-size: 2.2rem;
+  }
+
+  .burger,
+  .close-btn {
+    display: block;
+    font-size: 4.5rem;
+  }
+
+  .hero {
+    height: 55vh;
+  }
+
+  .hero-content {
+    width: 65%;
+  }
+
+  .div-1,
+  .div-2,
+  .div-3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+  }
+
+  .div-list,
+  .div-para {
+    flex: 1;
+    width: 100%;
+  }
+
+  .cont,
+  .female-attorney {
+    width: 16rem;
+  }
+
+  .image-cont {
+    height: 18rem;
+  }
+
+  .contact {
+    background-size: cover;
+    height: 90vh;
+  }
+
+  .custom-form {
+    width: 100%;
+  }
+
+  .vision-content p,
+  .hero-content p,
+  .div-para p,
+  .norms-list li,
+  .contact-form,
+  .copyright {
+    font-size: 2.55rem;
+  }
+  .copyright {
+    padding: 3.5rem 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav {
+    padding: 2.3rem 2.3rem 2.3rem 1.7rem;
+  }
+  .hero-content {
+    padding: 2rem 2.3rem;
+  }
+
+  svg {
+    width: 90px;
+    height: 40px;
+    font-size: 30px;
+  }
+
+  .name {
+    font-size: 1.68rem;
+    margin-left: 0;
+  }
+
+  .burger {
+    font-size: 5rem;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-content p {
+    line-height: 26px;
+  }
+
+  .legal-heading,
+  .attorneys {
+    width: 100%;
+    padding: 5rem 2.3rem;
+  }
+
+  .legal-heading p {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .legal-info {
+    width: 100%;
+    padding: 5rem 2.3rem 5rem 5.6rem;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vision-section {
+    padding: 7rem 2.3rem;
+  }
+
+  .attorneys {
+    padding: 8rem 2.3rem;
+  }
+
+  .male-attorneys {
+    padding: 0;
+    flex-direction: column;
+    row-gap: 4rem;
+  }
+
+  .cont,
+  .female-attorney {
+    flex: 1;
+    width: 35rem;
+    justify-content: center;
+  }
+
+  .image-cont {
+    height: 30rem;
+    border-radius: 0.5rem;
+  }
+
+  .mail {
+    font-size: 2.4rem;
+  }
+
+  .contact {
+    height: 129vh;
+  }
+
+  .contact-info {
+    padding: 6rem 2.3rem;
+  }
+
+  .contact-info p {
+    font-size: 3.5rem;
+  }
+
+  .contact-form {
+    max-width: 100%;
+    padding: 6rem 2.3rem;
+  }
+
+  .name-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyright {
+    padding: 3.5rem 2.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact {
+    height: 119vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .name {
+    font-size: 1.68rem;
+    margin-left: -20px;
+  }
+
+  .hero-content h2 {
+    font-size: 3.7rem;
+  }
+
+  .hero-content h3,
+  .attorneys-cover h2 {
+    font-size: 3.4rem;
+  }
+
+  .contact-info p {
+    font-size: 3rem;
+  }
+
+  .legal-heading p {
+    font-size: 3.5rem;
+    text-align: left;
+    padding-left: 2.3rem;
+  }
+
+  .contact {
+    height: 129vh;
+  }
+}
