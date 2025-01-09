@@ -91,7 +91,7 @@ svg {
 
 .hero {
   position: relative;
-  background: url(images/hero-image.png) no-repeat top center fixed;
+  background: url(images/hero-bg.jpg) no-repeat center fixed;
   background-size: cover;
   height: 100vh;
 }
